@@ -1,3 +1,5 @@
+
+
 #Only class (Logic/Structure)
 class Menu:
     def __init__(self, dev_name):
@@ -7,14 +9,14 @@ class Menu:
    
     def heading(Self):
         print(f"{'-'*60}")
-        print(f"{'#'*21} BANK ACCOUNT MANAGEMENT SYSTEM {'#'*21}")
-        print(f"{'#'*21} Developed by- Waffy {'#'*21}")
+        print("\n---------BANK ACCOUNT MANAGEMENT SYSTEM ---------")
+        print("\n---------       Developed by- Waffy     ---------")
         print(f"{'-'*60}")
 
     def main_menu(self):
         self.heading()
 
-        print("\n--------- MAIN MENU ---------")
+        print("\n---------MAIN MENU---------")
         print("1. Create New Account ")
         print("2. Deposit Money")
         print("3. Withdraw Money ")
@@ -23,6 +25,8 @@ class Menu:
         print("6. Display All Accounts ")
         print("7. Delete Account ")
         print("8. Exit ")
+
+
 #object create
 main_menu = Menu("Waffy")
 
