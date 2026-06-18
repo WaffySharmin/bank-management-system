@@ -27,8 +27,8 @@ class Menu:
         print("8. Exit ")
 
 
-#object create
-main_menu = Menu("Waffy")
+# #object create
+# main_menu = Menu("Waffy")
 
-#method call
-main_menu.main_menu()
+# #method call
+# main_menu.main_menu()

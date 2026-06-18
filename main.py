@@ -13,11 +13,9 @@ while 1 == 1:
     main_menu.main_menu()
 
     choice = int(input("Enter your choice: "))
+    
 
-    if(choice ==1):
-        main_menu.main_menu
-
-        
+    
 
        
         
